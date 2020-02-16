@@ -4,7 +4,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import json
 
-cred = credentials.Certificate('xxxxxx-xxxxxxxxx-xxxxxx-firebase-adminsdk-xxxxx-xxxxxxxxxx.json.json') # from firebase project settings
+cred = credentials.Certificate('xxxxxx-xxxxxxxxx-xxxxxx-firebase-adminsdk-xxxxx-xxxxxxxxxx.json') # from firebase project settings
 default_app = firebase_admin.initialize_app(cred, {
     'databaseURL' : 'https://xxxxxx-xxxxxxxxx-xxxxxx.firebaseio.com'
 })
